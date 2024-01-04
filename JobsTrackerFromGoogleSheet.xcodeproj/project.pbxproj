@@ -11,6 +11,7 @@
 		59B8DE7D2B45E9D90020A8B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B8DE7C2B45E9D90020A8B1 /* ContentView.swift */; };
 		59B8DE7F2B45E9DA0020A8B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59B8DE7E2B45E9DA0020A8B1 /* Assets.xcassets */; };
 		59B8DE822B45E9DA0020A8B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59B8DE812B45E9DA0020A8B1 /* Preview Assets.xcassets */; };
+		59B8DE8A2B47338D0020A8B1 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B8DE892B47338D0020A8B1 /* Keys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		59B8DE7E2B45E9DA0020A8B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59B8DE812B45E9DA0020A8B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		59B8DE882B463B2F0020A8B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		59B8DE892B47338D0020A8B1 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				59B8DE882B463B2F0020A8B1 /* Info.plist */,
 				59B8DE7A2B45E9D90020A8B1 /* JobsTrackerFromGoogleSheetApp.swift */,
 				59B8DE7C2B45E9D90020A8B1 /* ContentView.swift */,
+				59B8DE892B47338D0020A8B1 /* Keys.swift */,
 				59B8DE7E2B45E9DA0020A8B1 /* Assets.xcassets */,
 				59B8DE802B45E9DA0020A8B1 /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59B8DE7D2B45E9D90020A8B1 /* ContentView.swift in Sources */,
+				59B8DE8A2B47338D0020A8B1 /* Keys.swift in Sources */,
 				59B8DE7B2B45E9D90020A8B1 /* JobsTrackerFromGoogleSheetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

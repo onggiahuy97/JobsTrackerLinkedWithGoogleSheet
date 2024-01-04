@@ -70,7 +70,7 @@ struct ContentView: View {
     }
     
     func fetchJobApplications() async throws {
-        let apiKey: String = "AIzaSyBNVdRBqXz8dkddLxDPtxxHlWdUIfSc1zA"
+        let apiKey: String = APIKeys.googleSheetsAPIKey
         let sheetID: String = "1iLlr_pyulrtIlsy3lexmSwbCNL-j-0ZMRne6Z6Bzgf8"
         let urlString = "https://sheets.googleapis.com/v4/spreadsheets/\(sheetID)/values/Sheet1?key=\(apiKey)"
         guard let url = URL(string: urlString) else {

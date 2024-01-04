@@ -1,0 +1,13 @@
+# Xcode
+*.xcuserstate
+project.xcworkspace
+xcuserdata
+DerivedData/
+
+# CocoaPods
+Pods/
+
+# Sensitive files
+Keys.swift
+Config.plist
+
